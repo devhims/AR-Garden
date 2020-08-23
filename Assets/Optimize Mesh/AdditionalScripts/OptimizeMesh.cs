@@ -62,8 +62,7 @@ public class OptimizeMesh : MonoBehaviour
     {
         if (!EditorApplication.isPlaying)
         {
-            //MeshSaverEditor.SaveMesh(_renderer.sharedMesh, "Optimized__" + gameObject.name, false, true);
-            Debug.Log("Editor");
+            MeshSaverEditor.SaveMesh(_renderer.sharedMesh, "Optimized__" + gameObject.name, false, true);
         }
     }
 }
