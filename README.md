@@ -23,6 +23,9 @@ Demonstrate the use of AR raycasting against detected planes and object pooling 
 1. While working in the editor and regerating meshes, keep the OptimizeMesh.cs and MeshSaveEditor.cs scripts in the "AddtionalScripts" folder. 
 2. Once ready to build to your target platform, move the 2 scipts to the "Editor" folder. If not, you'll be greeted with a bunch of build errors. :)
 
+<img src="Images/error.png" width="750">
+<img src="Images/editor.png" width="500">
+
 
 
 
