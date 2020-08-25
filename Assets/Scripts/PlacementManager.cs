@@ -4,6 +4,8 @@ using Hims.Arsenal;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using DG.Tweening;
+
 
 public class PlacementManager : MonoBehaviour
 {
@@ -52,6 +54,9 @@ public class PlacementManager : MonoBehaviour
                 GameObject go = EasyPool.Instance.GetObj();
                 go.transform.position = hitPose.position;
                 go.SetActive(true);
+                go.transform.localScale = Vector3.zero;
+                go.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutExpo);
+                
                 activePlants.Add(go);
             }
         }
