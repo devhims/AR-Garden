@@ -412,7 +412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raycastManager: {fileID: 969046377}
-  maxPlants: 100
 --- !u!4 &1331099747
 Transform:
   m_ObjectHideFlags: 0
@@ -589,6 +588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FPS Counter (Portrait)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245408994078063478, guid: 5a7383c6159844ac198820dc4be4d250,
+        type: 3}
+      propertyPath: logWrite
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1245408994078063479, guid: 5a7383c6159844ac198820dc4be4d250,
         type: 3}
