@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quality: 0.19
+  _quality: 0.5
 --- !u!33 &2834078682577113929
 MeshFilter:
   m_ObjectHideFlags: 0

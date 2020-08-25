@@ -21,6 +21,8 @@ namespace Hims.Arsenal
         // singleton 
         public static EasyPool Instance;
 
+        public int PoolSize { get => poolSize; }
+
         void Awake()
         {
             if (Instance != null)
