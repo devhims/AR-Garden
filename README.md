@@ -18,6 +18,7 @@ Demonstrate the use of AR raycasting against detected planes and object pooling 
 1. Hibiscus Free 3D model from Turbosquid: https://www.turbosquid.com/3d-models/hibiscus-chinese-rose-model-1294095
 2. Mesh Optimizer Free Asset from Unity's Asset Store: https://assetstore.unity.com/packages/tools/modeling/mesh-optimizer-154517
 3. FPS Counter and Graph by Nicholas (@nvjob): https://github.com/nvjob/Unity-FPS-Counter
+4. Easy Object Pooling by myself: https://github.com/creativehims/Easy-Object-Pooling
 
 ## Optimise Mesh Asset Bug Fix:
 1. While working in the editor and regerating meshes, keep the OptimizeMesh.cs and MeshSaveEditor.cs scripts in the "AddtionalScripts" folder. 
