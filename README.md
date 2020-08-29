@@ -6,8 +6,7 @@ Demonstrate the use of AR raycasting against detected planes and object pooling 
 2. Mesh optimisation for trading flower mesh quality with improved performance for the AR experience. 
 
 ## Demo:
-<img src="Images/argarden.gif" width="500">
-
+[YouTube Link](https://youtu.be/TimhZEBx0bc)
 
 ## How To Build?
 0. Make sure you've got an ARCore/ARKit enabled device.
